@@ -6,6 +6,8 @@ https://www.youtube.com/c/AlfonsoGonzalezSpaceEngineering
 Hello world of Spacecraft class
 Two-body propagation with J2 perturbation for 100 periods
 '''
+import matplotlib
+matplotlib.use('TkAgg')
 
 # Python standard libraries
 # AWP libraries

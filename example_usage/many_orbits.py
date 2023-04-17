@@ -17,6 +17,8 @@ import plotting_tools as pt
 
 # 3rd party libraries
 import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')
 
 aops   = np.arange( 0, 360, 90 )
 incs   = np.arange( 0, 90,  20 )

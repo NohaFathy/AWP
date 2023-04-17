@@ -6,6 +6,8 @@ https://www.youtube.com/c/AlfonsoGonzalezSpaceEngineering
 Propagate orbits with Spacecraft class and plot resulting
 groundtracks
 '''
+import matplotlib
+matplotlib.use('TkAgg')
 
 # 3rd party libraries
 from numpy import arange
